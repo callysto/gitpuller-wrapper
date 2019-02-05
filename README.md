@@ -12,14 +12,24 @@ This notebook extension (though maybe not _technically_ a notebook extension) ad
 
 To install this extension follow the instructions below
 
+1. run `pip install git+https://github.com/callysto/gitpuller-wrapper --user` 
+2. Restart your server 
+
+You should now have a tab called "Github Notebooks" in your repo
+**Note:** You may need to allow pop-ups from the site as it will open the git-puller stuff in a new tab. 
+## Alternatively
 1. From any directory, clone this repository
-2. Enter `docker-stacks/gitpuller_wrapper`. 
+2. Enter `/gitpuller_wrapper`. 
 3. Run `python setup.py install --user`
     - Note that this also activates and installs the jupyter extensions for you
     - Also note that you may have to explicitly type `python3` if you have other versions installed
 4. Restart your server
 5. You should now have a tab called "Github Notebooks" in your repo
-6. You may need to allow pop-ups from the site as it will open the git-pull stuff in a second tab. 
+**Note:** You may need to allow pop-ups from the site as it will open the git-puller stuff in a new tab. 
+
+
+
+
 
 
 ## Usage
