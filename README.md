@@ -16,7 +16,9 @@ To install this extension follow the instructions below
 2. Restart your server 
 
 You should now have a tab called "Github Notebooks" in your repo
+
 **Note:** You may need to allow pop-ups from the site as it will open the git-puller stuff in a new tab. 
+
 ## Alternatively
 1. From any directory, clone this repository
 2. Enter `/gitpuller_wrapper`. 
@@ -25,9 +27,8 @@ You should now have a tab called "Github Notebooks" in your repo
     - Also note that you may have to explicitly type `python3` if you have other versions installed
 4. Restart your server
 5. You should now have a tab called "Github Notebooks" in your repo
+
 **Note:** You may need to allow pop-ups from the site as it will open the git-puller stuff in a new tab. 
-
-
 
 
 
