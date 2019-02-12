@@ -13,7 +13,7 @@ This notebook extension (though maybe not _technically_ a notebook extension) ad
 To install this extension follow the instructions below
 
 1. run `pip install git+https://github.com/callysto/gitpuller-wrapper --user` 
-2. Restart your server 
+2. Restart your **server**. On a hub, you must click `Control Panel` in the top right corner, `Stop My Server` then `Start My Server`. 
 
 You should now have a tab called "Github Notebooks" in your repo
 
