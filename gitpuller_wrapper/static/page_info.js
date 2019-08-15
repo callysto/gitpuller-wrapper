@@ -43,7 +43,7 @@ function html_page(){
              For example, suppose you wanted to use notebooks from our sample repo available at the following
              link
              <br> <br>
-             <a href='https://github.com/callysto/callysto-sample-notebooks/tree/workshop_demos', target=_'blank'> https://github.com/callysto/callysto-sample-notebooks/tree/workshop_demos</a>
+             <a href='https://github.com/callysto/callysto-sample-notebooks/tree/master/notebooks/Demonstrations', target=_'blank'> https://github.com/callysto/callysto-sample-notebooks/tree/workshop_demos</a>
              <br> <br>
              To download that repository into your hub, copy that link into the text box above
              and press enter. You will be redirected to a new tab and a (usually brief) loading screen. Once 
