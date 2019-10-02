@@ -1,5 +1,5 @@
 // This code will add a "New Notebooks" tab to your jupyter hub environment 
-// and provide you with a text entry widget that you can paste github links into
+// and provide you with a text entry widget that you can paste GitHub links into
 // and use nbgitpuller to bring the repository/notebook into your hub environment.
 
 // TODO: Probably should make sure the user doesn't already have the repo before
@@ -45,13 +45,13 @@ define(function(require){
                 Jupyter.repoPull = "https://" + Jupyter.repoPull;
             };
             
-            // First, check if the user has entered a github link
+            // First, check if the user has entered a GitHub link
             var rep_info = gh.gh(Jupyter.repoPull);
             console.log(rep_info)
             if(rep_info.host != 'github.com'){
                 var message = "Unfortunately the address ";
                 message = message + Jupyter.repoPull;
-                message = message + " is not a github link. \nPlease provide a link to a repository or file hosted on github.com.";
+                message = message + " is not a GitHub link. \nPlease provide a link to a repository or file hosted on github.com.";
                 alert(message);
                 return;
             };      
@@ -64,7 +64,7 @@ define(function(require){
                     if (data.code == '200'){
                         successCallback()
                     } else {
-                        alert("The github link:\n" + url + "\nreturned status: " + data.code + ".\nplease check for typos in your link.");
+                        alert("The GitHub link:\n" + url + "\nreturned status: " + data.code + ".\nplease check for typos in your link.");
                        
                     }
                 });

@@ -8,9 +8,9 @@ function html_page(){
       <div class="col-xs-8 no-padding">
        <span id="page_info">
         <h1> Download Notebook Resources </h1>
-                In the text box below you can enter a github link and the contents of that repository will
+                In the text box below you can enter a GitHub link and the contents of that repository will
              be automatically downloaded to your repo. This uses <a href="https://github.com/jupyterhub/nbgitpuller", target="_blank"> 
-             nbgitpuller</a> (for notebook git puller) to download new materials from github.
+             nbgitpuller</a> (for notebook git puller) to download new materials from GitHub.
              <br>
              Note: You may need to allow pop ups from this site. 
             <br><br>
@@ -35,7 +35,7 @@ function html_page(){
              <input class="target" type="text" id="repo" name="repo" value="" placeholder="Enter repo/notebook url">
             </div>
              <h3> Instructions </h3>
-                To download a new repository, search <a href='www.github.com', target="_blank" > github </a> for notebooks that 
+                To download a new repository, search <a href='www.github.com', target="_blank" > GitHub </a> for notebooks that 
              you find interesting. Once you find a notebook or repository that you would like to explore
              further on the hub, copy the url of the repository into the text box below, and we'll take care of
              the rest!
@@ -43,7 +43,7 @@ function html_page(){
              For example, suppose you wanted to use notebooks from our sample repo available at the following
              link
              <br> <br>
-             <a href='https://github.com/callysto/callysto-sample-notebooks/tree/workshop_demos', target=_'blank'> https://github.com/callysto/callysto-sample-notebooks/tree/workshop_demos</a>
+             <a href='https://github.com/callysto/callysto-sample-notebooks/tree/master/notebooks/Demonstrations', target=_'blank'> https://github.com/callysto/callysto-sample-notebooks/tree/workshop_demos</a>
              <br> <br>
              To download that repository into your hub, copy that link into the text box above
              and press enter. You will be redirected to a new tab and a (usually brief) loading screen. Once 
@@ -89,7 +89,7 @@ ModuleNotFoundError: No module named <span style="color: #a31515">&#39;MissingMo
             missing, you will download and install the required packages.
 
             If this doesn't resolve your module not found errors, you may have to consult the <code>README.md</code>
-            of the github repository and follow their installation instructions.
+            of the GitHub repository and follow their installation instructions.
             <br>
             <br>
         </span>
